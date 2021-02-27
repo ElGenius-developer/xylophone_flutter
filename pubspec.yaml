@@ -1,0 +1,36 @@
+name: xylophone_flutter
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons:
+  flutter_launcher_icons:
+  flutter_bloc:
+  audioplayers:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
+    - assets/audio/
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/icon.png"
